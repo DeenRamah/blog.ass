@@ -1,0 +1,128 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #333;
+  }
+  
+  /* Section Styles */
+  
+  section {
+    padding: 20px;
+  }
+  
+  #home h2,
+  #about h2,
+  #events h2,
+  #volunteer h2,
+  #donate h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  #home p,
+  #about p,
+  #events p,
+  #volunteer p,
+  #donate p {
+    margin-bottom: 20px;
+  }
+  
+  .blog-poster {
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .blog-poster h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-poster p {
+    margin-bottom: 10px;
+  }
+  
+  /* Volunteer Form Styles */
+  
+  #volunteer-form form {
+    margin-top: 20px;
+  }
+  
+  #volunteer-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #volunteer-form input[type="text"],
+  #volunteer-form input[type="email"],
+  #volunteer-form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #volunteer-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #volunteer-form input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer Styles */
+  
+  footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+  }
+  
